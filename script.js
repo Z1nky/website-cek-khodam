@@ -11,10 +11,6 @@ const checkKhodam = () => {
     const viewNama = namaUser.value;
 
     if(viewNama){
-        // const backBtn = document.createElement('button');
-        // backBtn.textContent = 'Back';
-        // backBtn.setAttribute('onclick', 'kembali()');
-        // backBtn.setAttribute('id', 'btnKembali');
 
         let arrKhodam = ["Maung Bandung🐯", "Singa Rawrrr 🦁",
             "Kucing Garong 🐱", "Sapi Mooo 🐮", "Naga Bonar 🐲","Babi ngokkk 🐷","Chiken Nugget 🐔","Roger Sumatra 🐺", "Kuda Lumping 🫏", "Zebra madagaskar 🦓", "Curut Item 🐭", "Monyet Pakboy 🐵", "Jerapah Puter 🦒", "Kungfu Panda 🐼"];
