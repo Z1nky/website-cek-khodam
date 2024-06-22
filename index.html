@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Khodam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 class="card-title">Apa Khodam kalian ges?</h2>
+            <p class="card-sub">Cek Khodam mu dibawah</p>
+            <!-- <div class="loader"></div> -->
+            <p class="resultNama" id="resultNama"></p>
+            <h2 class="resultKhodam" id="resultKhodam"></h2>
+            <input type="text" placeholder="Masukan nama kamu disini..." maxlength="20" class="inputCheck"
+                id="inputNama">
+            <button onclick="checkKhodam()" id="checkBtn">Go Check</button>
+            <button onclick="kembali()" class="btnKembali">Kembali</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

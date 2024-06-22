@@ -1,0 +1,106 @@
+*,html.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBF4F6;
+}
+
+.card{
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(90, 99, 156, .4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 26px;
+    color: #EBF4F6;
+    text-shadow: 0 5px 10px rgb(155, 134, 189);
+}
+
+.card p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #EBF4F6;
+}
+
+.inputCheck{
+    border: none;
+    padding: 10px 20px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card button{
+    width: 80%;
+    border: 1px solid rgb(90, 99, 156);
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(90, 99, 156);
+    font-size: 18px;
+    font-weight: bold;
+    color: #EBF4F6;
+    cursor: pointer;
+}
+
+.card button:hover{
+    transition: all .5s ease;
+    background-color: transparent;
+    color: rgb(90, 99, 156);
+}
+
+.resultNama{
+    display: none;
+    text-align: center;
+}
+
+.resultKhodam{
+    display: none;
+    text-align: center;
+    color: #EBF4F6;
+}
+
+.btnKembali{
+    display: none;
+}
+
+@media screen and (max-width: 678px) {
+    .card{
+        margin: 15px;
+    }
+
+    .card-title{
+        font-size: 22px;
+    }
+    
+    .card p{
+        font-size: 18px;
+    }
+    
+    .inputCheck{
+        font-size: 14px;
+    }
+    
+    .card button{
+        font-size: 14px;
+    }
+}
